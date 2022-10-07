@@ -1,4 +1,4 @@
-## DragAndPinchView
+## SwiftUI : DragAndPinchView
 ### How to implement moving, scaling, and rotation gestures simultaneously in SwiftUI.
 <p align="center">
   <img width="600" height="344" src="readme_images/CoolTechDragPinch.jpg">
@@ -97,5 +97,5 @@ struct ContentView: View {
 }
    :
 ```
-
-Download the SwiftUI project code and give it a try.
+## DragAndPinchView is a small example code
+### Download the SwiftUI project code and give it a try.
