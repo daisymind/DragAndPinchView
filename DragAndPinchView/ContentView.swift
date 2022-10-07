@@ -70,7 +70,7 @@ struct ContentView: View {
             
             VStack {
                 Spacer()
-                Button(action: {
+                Button(action: { // reset modifiers value
                     offset = .zero; lastOffset = .zero
                     scale = 1.0; lastScale = 1.0
                     angle = .zero; lastAngle = .zero
