@@ -14,7 +14,7 @@ Modifiers order to note following:
 Image(systemName: "photo.fill") // sample drag image
 // the following order is required for coordinate match
     .rotationEffect(angle, anchor: .center) // rotationEffect must be first
-    .scaleEffect(scale) // scale must be after rotationEffect
+    .scaleEffect(scale) // scaleEffect must be after rotationEffect
     .offset(offset) // offset is last
 ```
 
@@ -78,7 +78,7 @@ struct ContentView: View {
                 .frame(width: imageWidth, height: imageHeight) // placement size
             // the following order is required for coordinate match
                 .rotationEffect(angle, anchor: .center) // rotationEffect must be first
-                .scaleEffect(scale) // scale must be after rotationEffect
+                .scaleEffect(scale) // scaleEffect must be after rotationEffect
                 .offset(offset) // offset is last
             // multiple gesture :Drag to move, Pinch to scale, Pinch to rotate
                 .gesture(dragGesture)
